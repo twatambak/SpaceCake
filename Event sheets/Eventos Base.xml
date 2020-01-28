@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Eventos Base</name>
+    <events>
+        <event-block sid="109258059823253">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="995683258420838" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="10" name="Set angle of gravity" sid="476011953468880" type="Player">
+                    <param id="0" name="Angle">angle(player.X, player.Y, sprite2.X, sprite2.Y)</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="112409476358321" type="System">
+                    <param id="0" name="Angle">angle(player.X, player.Y, sprite2.X, sprite2.Y) - 90</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="819855578297727" type="Player">
+                    <param id="0" name="X">Sprite2.X</param>
+                    <param id="1" name="Y">Sprite2.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139537002343024">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="489249505084601" type="Player">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="252719592838465" type="Player">
+                    <param id="0" name="X">985</param>
+                    <param id="1" name="Y">145</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

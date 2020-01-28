@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Space Cake</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>32a9cs2xps4q8</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
+        <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML 5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>1152</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview mode">HTTP</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Rochas">
+            <object-type name="spr_Rocha1" sid="275482554196227">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="683076453660029">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354824287873076" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_00.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha10" sid="684866994785020">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="955736988868635">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365353194738038" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_09.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha2" sid="674234545576957">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="406522518501346">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382994225022729" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_01.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha3" sid="442151571025745">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="884415346702849">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="266266212454535" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_02.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha4" sid="962719123157167">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="901674302292938">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607840405691543" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_03.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha5" sid="619129259269289">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="977802202060100">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642919837157174" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_04.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha6" sid="377166973878186">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="496613037889488">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961364874699785" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_05.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha7" sid="135493462370221">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="891099989172391">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826732801977398" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_06.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha8" sid="454050123062120">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="663145030347289">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245034252729058" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_07.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="spr_Rocha9" sid="625847549166557">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="669418371960009">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="660543998665168" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Rochas\sprite_08.png">
+                            <collision-poly>
+                                <point x="0.265625" y="0.265625" />
+                                <point x="0.5" y="0.234375" />
+                                <point x="0.6875" y="0.3125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.71875" y="0.71875" />
+                                <point x="0.234375" y="0.765625" />
+                                <point x="0.046875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Player" sid="999990226058546">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="252268314530361">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="637998245464768">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769206832898320" speed="5">
+                    <frame duration="1" hotspotX="1" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0.943359" />
+                            <point x="0" y="0.0605469" />
+                            <point x="0.900391" y="0.142578" />
+                            <point x="1" y="0.5" />
+                            <point x="0.904297" y="0.865234" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="766394371933660">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638597545311882" speed="5">
+                    <frame duration="1" hotspotX="0.503906" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.210938" y="0.210938" />
+                            <point x="0.5" y="0.0078125" />
+                            <point x="0.394531" y="0.605469" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.988281" />
+                            <point x="0.214844" y="0.785156" />
+                            <point x="0.109375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="168628961420565">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Background" sid="747047053825171">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="tile_Espaco" sid="187287756393746">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687976471083191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tile_Estrelas" sid="639683088441017">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Sine" sid="136930766040213">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
+            <texture original-source="C:\Users\Thiago L. Watambak\Downloads\SpaceCake - Estrelas(2).png" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Fase 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Eventos Base.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="22" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
